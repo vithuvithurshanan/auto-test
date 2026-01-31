@@ -1,0 +1,30 @@
+{
+  "name": "autotest-pro:-ai-powered-devops-pipeline",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node init && concurrently \"vite\" \"node server/index.js\"",
+    "build": "node init && vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.39.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lucide-react": "^0.563.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.36.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

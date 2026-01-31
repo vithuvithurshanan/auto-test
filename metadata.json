@@ -1,0 +1,5 @@
+{
+  "name": "AutoTest Pro: AI-Powered DevOps Pipeline",
+  "description": "A comprehensive automation testing suite that integrates Jenkins pipeline-as-code and Selenium headless UI testing simulation, powered by Gemini for intelligent script generation and report analysis.",
+  "requestFramePermissions": []
+}
